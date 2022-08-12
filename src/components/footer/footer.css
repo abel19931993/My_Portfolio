@@ -1,0 +1,14 @@
+.footer{
+  border: 1px solid #7765ff33;
+  padding-top: 20px;
+}
+.footer p{
+  font-weight: 300;
+  font-size: 0.9rem;
+}
+@media only screen and (max-width:992px)
+{
+  .footer p{
+    font-size: 0.7rem;
+  }
+}
