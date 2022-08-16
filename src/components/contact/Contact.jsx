@@ -5,12 +5,13 @@ import Form from '../form/Form'
 function Contact() {
   return <section id='contact'>
     <Container>
+     
       <Row>
         <Col lg='12' className='mb-5'>
-          <h2>Get In Touch</h2>
+        <h2>Get In Touch</h2>
         </Col>
         <Col lg='6' md='6'>
-          <div className="contact__info-container d-flex align-items-center gap-5">
+        <div className="contact__info-container d-flex align-items-center gap-5">
             <div className="single__info-box w-50">
               <h6>Address</h6>
               <p>Ethiopa, Adiss Ababa</p>
@@ -32,9 +33,11 @@ function Contact() {
           </div>
         </Col>
         <Col lg='6' md='6'>
-          <Form/>
+         
+        <Form/>
         </Col>
       </Row>
+     
     </Container>
   </section>
 }

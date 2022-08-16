@@ -9,10 +9,13 @@ const Form = () => {
     console.log("Submitted");
   };
   return (
-    <Form className="form" onSubmit={submitHandler}>
+    // <Form className="form" onSubmit={submitHandler}>
+    <>
+   
       <div className="form__input">
         <input
           type="text"
+          name="name"
           placeholder="Your Name"
           value={enteredName}
           onChange={(e) => setEnteredName(e.target.value)}
@@ -21,6 +24,7 @@ const Form = () => {
       <div className="form__input">
         <input
           type="email"
+          name="email"
           placeholder="Your Email"
           value={enteredEmail}
           onChange={(e) => setEnteredEmail(e.target.value)}
@@ -28,13 +32,15 @@ const Form = () => {
       </div>
       <div className="form__input">
         <textarea
+        name="message"
           placeholder="Write Message"
           value={enteredMessage}
           onChange={(e) => setEneteredMessage(e.target.value)}
         ></textarea>
       </div>
       <button className="submit__btn" type="submit"></button>
-    </Form>
+      </>
+    // </Form>
   );
 };
 

@@ -19,7 +19,7 @@ const Layout =()=>{
      <Experience/>
      <Portfolio/>
      <Testimonial/>
-     {/* <Contact/> */}
+     <Contact/>
      {/* <Footer/> */}
     </Fragment>
     )
